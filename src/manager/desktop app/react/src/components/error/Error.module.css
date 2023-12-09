@@ -1,0 +1,12 @@
+.main {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    user-select: none;
+}
+
+.errorMessage {
+    color:brown;
+    font-weight: 600;
+    font-size: 7vw;
+}

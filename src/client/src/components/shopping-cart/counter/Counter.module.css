@@ -1,0 +1,23 @@
+.counterContainer {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 250 !important;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 13);
+    user-select: none;
+}
+
+.counterAmount {
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    z-index: 251 !important;
+    color:rgb(225, 225, 225)
+}

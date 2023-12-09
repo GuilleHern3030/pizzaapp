@@ -1,0 +1,24 @@
+{
+    "apiUrl": "https://backend-test-dev-asmd.2.us-1.fl0.io/",
+    "csv": "/data/articles.csv",
+    "messages": {
+        "0": "id",
+        "1": "name",
+        "2": "email",
+        "3": "telephone",
+        "4": "message",
+        "5": "register_time"
+    },
+    "articles": {
+        "0": "id",
+        "1": "category",
+        "2": "name",
+        "3": "price",
+        "4": "coin",
+        "5": "description",
+        "6": "register",
+        "7": "amount",
+        "8": "imageuri",
+        "9": "details"
+    }
+}

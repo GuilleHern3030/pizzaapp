@@ -1,0 +1,94 @@
+"id","category","name","price","coin","description","register","amount","imageuri","details"
+"2","Pizza","Muzzarela","1800","usd","Una descripcion","Una marca","10","pizza","detalles"
+"3","Pizza","Muzza c/ criolla","2200",NULL,"Una descripcion","Una marca","0","pizza","detalles"
+"4","Pizza","Muzza c/ huevo duro","2000",NULL,"Una descripcion","Una marca",NULL,"pizza","detalles"
+"5","Pizza","Muzza c/ jamon","2300",NULL,"Una descripcion","Una marca","-1","pizza","detalles"
+"6","Pizza","Muzza c/ jamon y huevo duro","2500",NULL,NULL,NULL,NULL,"pizza",NULL
+"7","Pizza","Jamon y morrones","2800",NULL,NULL,NULL,NULL,"pizza",NULL
+"8","Pizza","Jamon y morrones c/ huevo duro","3000",NULL,NULL,NULL,NULL,"pizza",NULL
+"9","Pizza","Napolitana","2600",NULL,NULL,NULL,NULL,"pizza",NULL
+"10","Pizza","Napolitana c/ huevo duro","2800",NULL,NULL,NULL,"0","pizza",NULL
+"11","Pizza","Napolitana c/ criolla","3000",NULL,NULL,NULL,NULL,"pizza",NULL
+"12","Pizza","Napolitana c/ jamon","3100",NULL,NULL,NULL,NULL,"pizza",NULL
+"13","Pizza","Napolitana c/ jamon y huevo duro","3300",NULL,NULL,NULL,NULL,"pizza",NULL
+"14","Pizza","Napolitana c/ jamon y criolla","3500",NULL,NULL,NULL,NULL,"pizza",NULL
+"15","Pizza","Napolitana c/ rucula","3200",NULL,NULL,NULL,NULL,"pizza",NULL
+"16","Pizza","Roquefort","2400",NULL,NULL,NULL,NULL,"pizza",NULL
+"17","Pizza","Roquefort c/ jamon","2900",NULL,NULL,NULL,NULL,"pizza",NULL
+"18","Pizza","Provolone","2600",NULL,NULL,NULL,NULL,"pizza",NULL
+"19","Pizza","Provolone c/ jamon","3100",NULL,NULL,NULL,NULL,"pizza",NULL
+"20","Pizza","Cuatro quesos","2800",NULL,NULL,NULL,NULL,"pizza",NULL
+"21","Pizza","Cuatro quesos c/ jamon","3300",NULL,NULL,NULL,NULL,"pizza",NULL
+"22","Pizza","Fugazza","1800",NULL,NULL,NULL,NULL,"pizza",NULL
+"23","Pizza","Fugazza con muzza","2200",NULL,NULL,NULL,NULL,"pizza",NULL
+"24","Pizza","Fugazza c/ jamon y morron","2700",NULL,NULL,NULL,NULL,"pizza",NULL
+"25","Pizza","Fugazza rellena (jyq)","4500",NULL,NULL,NULL,NULL,"pizza",NULL
+"26","Pizza","Muzarella rellena (jyq)","4500",NULL,NULL,NULL,NULL,"pizza",NULL
+"27","Pizza","Calabresa","2400",NULL,NULL,NULL,NULL,"pizza",NULL
+"28","Pizza","Rucula","2400",NULL,NULL,NULL,NULL,"pizza",NULL
+"29","Pizza","Verdura y Salsa blanca","3000",NULL,NULL,NULL,NULL,"pizza",NULL
+"30","Pan de Pizza","Bandeja de Pan de Pizza","700",NULL,NULL,NULL,NULL,"pizzapan",NULL
+"31","Media pizza","Muzzarela","1200",NULL,NULL,NULL,NULL,"pizza",NULL
+"32","Media pizza","Muzza c/ criolla","1400",NULL,NULL,NULL,NULL,"pizza",NULL
+"33","Media pizza","Muzza c/ huevo duro","1300",NULL,NULL,NULL,NULL,"pizza",NULL
+"34","Media pizza","Muzza c/ jamon","1500",NULL,NULL,NULL,NULL,"pizza",NULL
+"35","Media pizza","Muzza c/ jamon y huevo duro","1600",NULL,NULL,NULL,NULL,"pizza",NULL
+"36","Media pizza","Jamon y morrones","2000",NULL,NULL,NULL,NULL,"pizza",NULL
+"37","Media pizza","Jamon y morrones c/ huevo duro","2100",NULL,NULL,NULL,NULL,"pizza",NULL
+"38","Media pizza","Napolitana","1900",NULL,NULL,NULL,NULL,"pizza",NULL
+"39","Media pizza","Napolitana c/ huevo duro","2000",NULL,NULL,NULL,NULL,"pizza",NULL
+"40","Media pizza","Napolitana c/ criolla","2200",NULL,NULL,NULL,NULL,"pizza",NULL
+"41","Media pizza","Napolitana c/ jamon","2300",NULL,NULL,NULL,NULL,"pizza",NULL
+"42","Media pizza","Napolitana c/ jamon y huevo duro","2400",NULL,NULL,NULL,NULL,"pizza",NULL
+"43","Media pizza","Napolitana c/ jamon y criolla","2800",NULL,NULL,NULL,NULL,"pizza",NULL
+"44","Media pizza","Napolitana c/ rucula","2600",NULL,NULL,NULL,NULL,"pizza",NULL
+"45","Media pizza","Roquefort","1700",NULL,NULL,NULL,NULL,"pizza",NULL
+"46","Media pizza","Roquefort c/ jamon","2000",NULL,NULL,NULL,NULL,"pizza",NULL
+"47","Media pizza","Provolone","1900",NULL,NULL,NULL,NULL,"pizza",NULL
+"48","Media pizza","Provolone c/ jamon","2200",NULL,NULL,NULL,NULL,"pizza",NULL
+"49","Media pizza","Cuatro quesos","2000",NULL,NULL,NULL,NULL,"pizza",NULL
+"50","Media pizza","Cuatro quesos c/ jamon","2700",NULL,NULL,NULL,NULL,"pizza",NULL
+"51","Media pizza","Fugazza","1200",NULL,NULL,NULL,NULL,"pizza",NULL
+"52","Media pizza","Fugazza con muzza","2000",NULL,NULL,NULL,NULL,"pizza",NULL
+"53","Media pizza","Fugazza c/ jamon y morron","1900",NULL,NULL,NULL,NULL,"pizza",NULL
+"54","Media pizza","Calabresa","1700",NULL,NULL,NULL,NULL,"pizza",NULL
+"55","Media pizza","Rucula","1700",NULL,NULL,NULL,NULL,"pizza",NULL
+"56","Media pizza","Verdura y Salsa blanca","1800",NULL,NULL,NULL,NULL,"pizza",NULL
+"57","Porcion de pizza","Fugazza rellena (jyq)","600",NULL,NULL,NULL,NULL,"pizza",NULL
+"58","Porcion de pizza","Muzarella rellena (jyq)","600",NULL,NULL,NULL,NULL,"pizza",NULL
+"59","Porcion de faina rellena","Faina rellena de Jamon y Queso","1000",NULL,NULL,NULL,NULL,"pizza",NULL
+"60","Porcion de faina rellena","Faina rellena de Jamon y Roquefort","1000",NULL,NULL,NULL,NULL,"pizza",NULL
+"61","Porcion de faina rellena","Faina rellena de Jamon y Provolone","1000",NULL,NULL,NULL,NULL,"pizza",NULL
+"62","Porcion de faina rellena","Faina rellena Napolitana","1000",NULL,NULL,NULL,NULL,"pizza",NULL
+"63","Porcion de faina rellena","Faina rellena Criolla","1000",NULL,NULL,NULL,NULL,"pizza",NULL
+"64","Faina","Faina entera","1500",NULL,NULL,NULL,NULL,"faina",NULL
+"65","Faina","Porcion de faina","200",NULL,NULL,NULL,NULL,"faina",NULL
+"66","Empanada","Empanada de Carne","300","$3600 la d",NULL,NULL,NULL,"empanada",NULL
+"67","Empanada","Empanada de Pollo","300","$3600 la d",NULL,NULL,NULL,"empanada",NULL
+"68","Empanada","Empanada de Jamon y Queso","300","$3600 la d",NULL,NULL,NULL,"empanada",NULL
+"69","Empanada","Empanada de Jamon y Roquefort","300","$3600 la d",NULL,NULL,NULL,"empanada",NULL
+"70","Empanada","Empanada de Humita","300","$3600 la d",NULL,NULL,NULL,"empanada",NULL
+"71","Empanada","Empanada de Queso y Cebolla","300","$3600 la d",NULL,NULL,NULL,"empanada",NULL
+"72","Empanada","Empanada de Caprese","300","$3600 la d","Solo horno",NULL,NULL,"empanada",NULL
+"73","Empanada","Verdura","300","$3600 la d",NULL,NULL,NULL,"empanada",NULL
+"74","Milanesa","Miolanesa simple","1800",NULL,NULL,NULL,NULL,"milanesa",NULL
+"75","Milanesa","Sandwich de milanesa simple","2000",NULL,NULL,NULL,NULL,"milanesa",NULL
+"76","Milanesa","Milanesa de Muzzarella","2500",NULL,"En sandwich se suman 100$",NULL,NULL,"milanesa",NULL
+"77","Milanesa","Milanesa de Muzza con criolla","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"78","Milanesa","Milanesa de Muzza con huevo duro","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"79","Milanesa","Milanesa de Muzza con Jamon","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"80","Milanesa","Milanesa de Muzza con Jamon y Huevo","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"81","Milanesa","Milanesa de Muzza con Jamon y Morron","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"82","Milanesa","Milanesa de Muzza con Jamon, morron y huevo duro","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"83","Milanesa","Milanesa de Muzza y Calabresa","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"84","Milanesa","Milanesa de Muzza y Provolone","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"85","Milanesa","Milanesa de Muzza y Roquefort","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"86","Milanesa","Milanesa Cuatro quesos","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"87","Milanesa","Milanesa Napolitana","2500",NULL,NULL,NULL,NULL,"milanesa",NULL
+"88","Milanesa","Fugazza con muzzarela","2500",NULL,"No incluye salsa de tomate",NULL,NULL,"milanesa",NULL
+"89","Papas fritas","Porcion de papas fritas","700",NULL,NULL,NULL,NULL,"papas",NULL
+"90","Promos","3 muzzarelas","5000",NULL,NULL,NULL,NULL,NULL,NULL
+"91","Promos","1 Muzzarela, 1 Faina entera, 1 Fugazza con queso","5000",NULL,NULL,NULL,NULL,NULL,NULL
+"92","Promos","2 Muzzarellas y 1 faina entera","4600",NULL,NULL,NULL,NULL,NULL,NULL
+"93","Promos","2 Muzzarellas y 1 Fugazza con queso","5500",NULL,NULL,NULL,NULL,NULL,NULL
+"94","Promos","1 Muzzarella y 6 empanadas (horno)","3400",NULL,NULL,NULL,NULL,NULL,NULL

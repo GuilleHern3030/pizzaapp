@@ -1,0 +1,30 @@
+.main {
+    margin: 0 1rem;
+}
+
+.top {
+    margin: calc(var(--header-height) + 15px) 1.5rem;
+}
+
+.top h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.top p {
+    font-size: 20px;
+    padding: 4px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.bottom img {
+    height: 55vw;
+    margin: 3vw;
+}

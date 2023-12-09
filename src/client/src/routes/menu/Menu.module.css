@@ -1,0 +1,11 @@
+.nodata {
+    padding-top: 10vh; 
+    padding-bottom: 25vh; 
+    font-size: 10vh;
+    text-align: center;
+}
+
+.loading {
+    margin-top: 20vh !important;
+    margin-bottom: 40vh !important;
+}

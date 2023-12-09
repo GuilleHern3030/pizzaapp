@@ -1,0 +1,32 @@
+.articleCategory {
+    --article-category-size: 3.5vw;
+    --article-category-color: rgb(201, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    color: var(--article-category-color);
+}
+
+.articleCategoryTitle {
+    margin-bottom: 1rem;
+    font-size: 7vw;
+    text-align: center;
+    grid-column: 1 / span 2;
+    color:var(--article-category-color) !important;
+}
+
+@media only screen and (min-width: 360px) {
+    .articleCategoryTitle { font-size: 25px; }
+}
+
+@media only screen and (min-width: 768px) {
+    .articleCategory {
+        display: grid;
+        grid-template-columns: repeat(2, 49vw);
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .articleCategoryTitle { font-size: 28px; }
+}

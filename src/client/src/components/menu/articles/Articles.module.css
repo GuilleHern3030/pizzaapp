@@ -1,0 +1,24 @@
+.sectionMenu {
+    --article-border: .2rem solid rgb(167, 166, 166);
+    user-select: none;
+}
+
+.sectionMenu div article {
+    display: grid;
+    border: var(--article-border);
+    background-color: rgb(174, 174, 174);
+    grid-template-columns: 1fr 3.4fr .3fr;
+    padding: 10px;
+    border-radius: 15px;
+    width: 97%;
+    margin: .3rem;
+    transition: transform 0.2s;
+}
+
+.sectionMenu div article:hover {
+    transform: scale(1.015);
+}
+
+.sectionMenu div article p::selection {
+    background-color: transparent;
+}

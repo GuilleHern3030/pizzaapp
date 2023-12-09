@@ -1,0 +1,48 @@
+.contact {
+    padding-top: 15px;
+    padding-bottom: 2rem;
+    user-select: none;
+    margin: 1rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.instructions {
+    font-size: 24px;
+    padding: 0 10px 10px 10px;
+}
+
+.wame {
+    margin: auto 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.wame > div {
+    display: inline-block;
+}
+
+.wame img {
+    height: 32vw;
+    width: 32vw;
+}
+
+@media only screen and (min-width: 480px) {
+    .wame img { height: 24vw; width: 24vw; }
+}
+
+@media only screen and (min-width: 768px) {
+    .wame img { height: 16vw; width: 16vw; }
+}
+
+@media only screen and (min-width: 1024px) {
+    .wame img { height: 150px; width: 150px; }
+}
+
+.wame_animation:hover { transform: scale(1.2) }
+.wame_animation { transition: transform 0.15s }

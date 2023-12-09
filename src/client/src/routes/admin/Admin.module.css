@@ -1,0 +1,7 @@
+.nodata {
+    padding-top: 10vh; 
+    padding-bottom: 25vh; 
+    font-size: 10vh;
+    text-align: center;
+    user-select: none;
+}

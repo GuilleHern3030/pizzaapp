@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 5vw;
+    margin: 1em;
+    max-width: 85vw;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 85vw;
+}
+
+@media only screen and (min-width: 360px) { .main { margin: 1em auto; font-size: 19px } }
+@media only screen and (min-width: 480px) { .main { font-size: 20px } .article { max-width: 100% } }
+@media only screen and (min-width: 768px) { .main { font-size: 22px } }
+
+
+.input_container {
+    margin: .5em 0;
+
+}
+
+.label {
+    margin-bottom: .2em;
+}
+
+.article input {
+    display: block;
+}
+
+.submit, .cancel, .save, .create, .delete {
+    color: rgba(255, 255, 255, 0.87);
+    margin: .7em;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.25em 0.55em;
+    cursor: pointer;
+    outline: 1px solid black;
+    transition: outline 0.25s;
+    transition: background-color 0.2s;
+    transition: transform 0.1s;
+}
+
+.submit { background-color: rgb(26, 67, 139) }
+.submit:hover {
+    outline: 4px auto #646cff;
+    background-color: rgb(29, 75, 153);
+    transform: scale(1.025)
+}
+
+.delete { background-color: rgb(139, 26, 26) }
+.delete:hover {
+    outline: 4px auto #ff6464;
+    background-color: rgb(153, 29, 29);
+    transform: scale(1.025)
+}
+
+.save { 
+    font-size: 1.5em;
+    background-color: rgb(26, 139, 30) 
+}
+.save:hover {
+    outline: 4px auto #64ff69;
+    background-color: rgb(29, 153, 35);
+    transform: scale(1.025)
+}
+
+.cancel { background-color: rgb(139, 124, 26) }
+.cancel:hover {
+    outline: 4px auto #f5ff64;
+    background-color: rgb(153, 128, 29);
+    transform: scale(1.025)
+}

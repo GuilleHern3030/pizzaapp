@@ -1,0 +1,48 @@
+.img {
+    user-select: none;
+    border: 1px solid #000;
+    object-fit: cover;
+}
+
+.article {
+    margin: 3vw 0;
+}
+
+.img, .article source {
+    height: 45vw;
+    width: 80vw;
+    border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: dashed;
+    font-weight: bold;
+    margin: 1rem 10px;
+    line-height: 16px;
+    font-size: 28px;
+}
+
+.info {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5px 10px;
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 480px) {
+    .title { font-size: 26px; line-height: 28px; }
+    .info { font-size: 16px; }
+}
+
+@media only screen and (min-width: 768px) {
+    .title { font-size: 24px; }
+    .info { font-size: 20px; }
+
+    .img, .article source {
+        height: 25vw;
+        width: 40vw;
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "appId": "enel.github.pizzapp",
+    "productName": "PizzaApp manager",
+    "directories": {
+        "output": "dist"
+    },
+    "files": [
+        "main.js",
+        "proyect/**/*"
+    ],
+    "asar": true
+}

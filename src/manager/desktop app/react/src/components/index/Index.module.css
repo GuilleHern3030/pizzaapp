@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    font-size: 6vw;
+    flex-grow: 1;
+    height: 100%;
+}
+
+@media only screen and (min-width: 360px) {
+    .main { font-size: 22px }
+}
+
+@media only screen and (min-width: 480px) {
+    .main { font-size: 24px }
+}
+
+@media only screen and (min-width: 768px) {
+    .main { font-size: 28px }
+}
+
+.spinner {
+    margin: 1em auto;
+    background-color: rgb(223, 229, 233);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.spinnerTitle {
+    text-align: start;
+    margin-left: .25em;
+    color: #373636;
+    font-weight: 350;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}
+
+.main button {
+    width:max-content;
+    padding: .2em;
+    margin: .5em auto;
+}
+
+.main button:hover {
+    cursor: pointer;
+}
