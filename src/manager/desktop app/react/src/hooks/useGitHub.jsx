@@ -141,7 +141,6 @@ export default function useGitHub() {
     })
 
     const editFile = (filePath, content) => new Promise(async(resolve, reject) => {
-        console.log(filePath, content)
         if (hasCredentials() && content != undefined && filePath != undefined) try {
             const sha = await getFile(filePath).then(res => res.sha)
             try {

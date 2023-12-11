@@ -1,0 +1,80 @@
+.section {
+    margin: .5em .2em;
+    background-color: rgb(223, 229, 233);
+    padding: 3px 5px 5px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.section *::selection {
+    background-color: rgb(188, 187, 185);
+}
+
+.showInListContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: .5em;
+}
+
+.showInList {
+    font-size: 16px !important;
+    margin: 0 !important;
+    background-color: transparent;
+    border-color: transparent;
+    outline-color: transparent;
+    color: #646cff;
+    font-size: .5em;
+    text-align: end;
+    font-weight: 500;
+    user-select: none;
+}
+
+.showInList:hover {
+    color: #353edc;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+}
+
+.column {
+    color:black;
+}
+
+.id {
+    display: grid;
+    place-content: center;
+    color: black;
+    padding: 0 .2em;
+    text-align: center;
+    max-width: max-content;
+}
+
+.input {
+    resize: none;
+    min-width: 20px;
+}
+
+.addButton {
+    margin: 8px 0;
+    width: 80%;
+}
+
+.save {
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 0 20px;
+}
+
+.save:hover {
+    cursor: pointer;
+}
+
+.commited {
+    user-select: none;
+    margin-bottom: 1em;
+}

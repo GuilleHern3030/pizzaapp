@@ -35,7 +35,6 @@ export default function useCSV(url) {
     // Añade un artículo al content
     const add = article => {
         if (article instanceof Article) {
-            console.log(article)
             content.push(article)
             return true;
         } else return false;
@@ -78,9 +77,9 @@ export default function useCSV(url) {
         if (content != undefined) try {
             if (json == undefined) json = content;
             const csv = await jsonToCsv(json)
-            console.log(csv)
             await git.editFile(data?.path, csv)
             .catch(async() => await git.createFile(data?.path, csv))
+            console.log(csv)
             console.log("commited into " + data?.path)
             return true;
         } catch(e) { console.error(e) }

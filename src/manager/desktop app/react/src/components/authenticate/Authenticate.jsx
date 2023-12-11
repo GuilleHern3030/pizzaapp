@@ -5,7 +5,7 @@ import { GitHub } from '../../context/GitHubContext'
 import useGitHub from '../../hooks/useGitHub';
 import Loading from '../loading/Loading';
 
-const CAN_USE_GITHUB = true;
+const CAN_USE_GITHUB = false;
 
 const validateInput = (input, warningSetter, warningMessage) => {
     const value = input.current.value;
