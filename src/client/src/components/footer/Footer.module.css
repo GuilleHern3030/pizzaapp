@@ -70,9 +70,10 @@
 .copyright {
     margin-top: calc(var(--footer-fontsize) * 2);
     user-select: none;
+    text-decoration: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .container {  
         display: grid;
         grid-template-columns: repeat(2, 1fr);

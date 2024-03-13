@@ -9,11 +9,12 @@ import banner from "../../assets/images/banner2.jpg";
 import imageFirst from "../../assets/images/pizza.webp";
 import imageSecond from "../../assets/images/horno.webp";
 import imageThird from "../../assets/images/empanada.webp";
-import imageFourth from "../../assets/images/faina.webp";
+import imageFourth from "../../assets/images/faina-porcion.webp";
 import imageFifth from "../../assets/images/keseso.webp";
 import imageSixth from "../../assets/images/milanesa.webp";
 
 import { title } from "../../data/client-info.json";
+import { credits } from "../../data/routes.json";
 
 import styles from './Home.module.css';
 
@@ -70,6 +71,6 @@ export default function Home() {
                 alt="Milanesa"
             />
         </ShowCase>
-        <Footer copyrigth="©2023 Guillermo Hernandez"/>
+        <Footer copyrigth="©2023 Guillermo Hernandez" copyrightHref={credits}/>
     </>);
 }

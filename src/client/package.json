@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generate-bat": "echo @echo off > run_dev.bat && echo start \"\" \"http://localhost:5172\" > run_dev.bat && echo npm run dev -- --host --port 5172 >> run_dev.bat"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",

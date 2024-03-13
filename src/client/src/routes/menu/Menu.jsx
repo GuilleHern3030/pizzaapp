@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import styles from "./Menu.module.css";
 
 import { title } from "../../data/client-info.json";
+import { credits } from "../../data/routes.json";
 
 // Components
 import Header from '../../components/header/Header';
@@ -40,6 +41,7 @@ export default function Menu() {
 
         <Outlet/>
 
-        <Footer copyrigth="©2023 Guillermo Hernandez"/>
+        <Footer copyrigth="©2023 Guillermo Hernandez" copyrightHref={credits}/>
+
     </>);
 }

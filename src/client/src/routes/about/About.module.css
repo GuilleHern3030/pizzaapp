@@ -21,10 +21,12 @@
 .bottom {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
-.bottom img {
+.bottomImg {
     height: 55vw;
+    max-width: 90vw;
     margin: 3vw;
+    border-radius: 10px;
 }

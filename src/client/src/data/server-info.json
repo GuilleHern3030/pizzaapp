@@ -1,5 +1,5 @@
 {
-    "apiUrl": "https://backend-test-dev-asmd.2.us-1.fl0.io/",
+    "apiUrl": "http://localhost:5432/",
     "csv": "/data/articles.csv",
     "messages": {
         "0": "id",

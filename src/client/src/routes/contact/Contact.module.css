@@ -17,19 +17,24 @@
     padding: 0 10px 10px 10px;
 }
 
-.wame {
+.wame, .gmail {
     margin: auto 0;
     margin-top: 1rem;
     text-align: center;
 }
 
-.wame > div {
+.wame > div , .gmail > div {
     display: inline-block;
 }
 
 .wame img {
     height: 32vw;
     width: 32vw;
+}
+
+.gmail img {
+    height: 6vw;
+    width: 6vw;
 }
 
 @media only screen and (min-width: 480px) {

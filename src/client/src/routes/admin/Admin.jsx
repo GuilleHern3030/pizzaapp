@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
+
 import { title } from "../../data/client-info.json";
+import { credits } from "../../data/routes.json";
+
 import styles from "./Admin.module.css";
 
 // Components
@@ -29,6 +32,7 @@ export default function Admin() {
             view
         }
 
-        <Footer copyrigth="©2023 Guillermo Hernandez"/>
+        <Footer copyrigth="©2023 Guillermo Hernandez" copyrightHref={credits}/>
+
     </>);
 }
