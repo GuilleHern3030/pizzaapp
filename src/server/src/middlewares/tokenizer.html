@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>index.html</title>
+    <script src="tokenizer.js"></script>
+    
+</head>
+
+<body>
+    <h1>Tokenizer</h1>
+    <input id="password" type="text">
+    <input id="submit" type="button" value="Send">
+    <p id="tokenized"></p>
+    <script>
+        document.getElementById("submit").addEventListener("click", e => {
+            const password = document.getElementById("password").value;
+            document.getElementById("tokenized").innerText = tokenize(password);
+        });
+    </script>
+</body>
+
+</html>

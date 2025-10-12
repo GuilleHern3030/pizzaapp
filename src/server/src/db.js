@@ -1,14 +1,24 @@
 const { Sequelize } = require("sequelize");
-const { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME, DB_PORT, DB_PARAMS } = require('./config')
+const { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME, DB_PORT, DB_PARAMS, DB_SSL } = require('./config')
 
 const fs = require("fs"); // lectura de archivos
 const path = require("path"); // manipulación de path
 
 // Define la base de datos y su tipo
-const sequelize = new Sequelize(
+/*const sequelize = new Sequelize(
   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}${DB_PARAMS?'?'+DB_PARAMS:""}`,
   { logging: false, native: false }
-);
+);*/
+const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, {
+  host: DB_HOST,
+  port: DB_PORT,
+  dialect: 'postgres',
+  logging: false,
+  native: false,
+  dialectOptions: {
+    ssl: DB_SSL
+  }
+});
 
 // Load models
 const basename = path.basename(__filename);

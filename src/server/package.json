@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "generate-bat": "echo @echo off > run_dev.bat && echo start \"\" \"http://localhost:5432\" > run_dev.bat && echo npm run dev -- --host --port 5432 >> run_dev.bat"
+    "generate-bat": "echo @echo off > run_dev.bat && echo start \"\" \"http://localhost:5431\" > run_dev.bat && echo npm run dev -- --host --port 5431 >> run_dev.bat"
   },
   "author": "",
   "license": "ISC",

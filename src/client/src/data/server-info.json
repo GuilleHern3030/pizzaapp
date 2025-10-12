@@ -1,5 +1,5 @@
 {
-    "apiUrl": "http://localhost:5432/",
+    "apiUrl": "http://localhost:5431/",
     "csv": "/data/articles.csv",
     "messages": {
         "0": "id",
