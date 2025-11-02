@@ -29,6 +29,5 @@ dist-ssr
 # Other files
 *.zip
 *.rar
-*.bat
 .env
 .vscode
