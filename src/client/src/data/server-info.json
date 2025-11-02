@@ -1,6 +1,6 @@
 {
     "apiUrl": "http://localhost:5431/",
-    "csv": "/data/articles.csv",
+    "csv": "/assets/articles.csv",
     "messages": {
         "0": "id",
         "1": "name",

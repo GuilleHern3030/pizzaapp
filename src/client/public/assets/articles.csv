@@ -1,0 +1,39 @@
+"id","category","name","price","coin","description","register","amount","imageuri","details"
+"1","Pizza","Muzzarela","1800",NULL,"Una descripcion","Una marca",NULL,"pizza-mozzarela.webp","detalles"
+"2","Pizza","Peperoni","2800",NULL,NULL,NULL,NULL,"pizza-peperoni.webp",NULL
+"3","Pizza","Cuatro quesos","2800",NULL,NULL,NULL,NULL,"pizza-4quesos.webp",NULL
+"4","Pizza","Americana","1800",NULL,NULL,NULL,"10","pizza-picante.webp",NULL
+"21","Media pizza","Muzzarela","1200",NULL,NULL,NULL,NULL,"pizza-mozzarela-media.webp",NULL
+"22","Media pizza","Peperoni","2000",NULL,NULL,NULL,NULL,"pizza-peperoni-media.webp",NULL
+"23","Media pizza","Cuatro quesos","2000",NULL,NULL,NULL,NULL,"pizza-4quesos-media.webp",NULL
+"24","Media pizza","Americana","1800",NULL,NULL,NULL,NULL,"pizza-picante-media.webp",NULL
+"40","Pan de Pizza","Bandeja de Pan de Pizza","700",NULL,NULL,NULL,NULL,"panpizza.webp",NULL
+"41","Faina","Faina entera","1500",NULL,NULL,NULL,NULL,"faina-completa.webp",NULL
+"42","Faina","Porcion de faina","200",NULL,NULL,NULL,NULL,"faina-porcion.webp",NULL
+"66","Empanada","Empanada de Carne","3600",NULL,NULL,NULL,NULL,"empanada.webp",NULL
+"67","Empanada","Empanada de Pollo","3600",NULL,NULL,NULL,NULL,"empanada.webp",NULL
+"68","Empanada","Empanada de Jamon y Queso","3600",NULL,NULL,NULL,NULL,"empanada.webp",NULL
+"70","Empanada","Empanada de Humita","3600",NULL,NULL,NULL,NULL,"empanada.webp",NULL
+"71","Empanada","Empanada de Queso y Cebolla","3600",NULL,NULL,NULL,NULL,"empanada.webp",NULL
+"72","Empanada","Empanada de Caprese","3600",NULL,"Solo horno",NULL,NULL,"empanada.webp",NULL
+"73","Empanada","Verdura","3600",NULL,NULL,NULL,NULL,"empanada.webp",NULL
+"74","Milanesa","Milanesa simple","1800",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"76","Milanesa","Milanesa de Muzzarella","2500",NULL,"En sandwich se suman 100$",NULL,NULL,"milanesa.webp",NULL
+"77","Milanesa","Milanesa de Muzza con criolla","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"78","Milanesa","Milanesa de Muzza con huevo duro","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"79","Milanesa","Milanesa de Muzza con Jamon","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"80","Milanesa","Milanesa de Muzza con Jamon y Huevo","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"81","Milanesa","Milanesa de Muzza con Jamon y Morron","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"82","Milanesa","Milanesa de Muzza con Jamon, morron y huevo duro","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"83","Milanesa","Milanesa de Muzza y Calabresa","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"84","Milanesa","Milanesa de Muzza y Provolone","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"85","Milanesa","Milanesa de Muzza y Roquefort","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"86","Milanesa","Milanesa Cuatro quesos","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"87","Milanesa","Milanesa Napolitana","2500",NULL,NULL,NULL,NULL,"milanesa.webp",NULL
+"88","Milanesa","Fugazza con muzzarela","2500",NULL,"No incluye salsa de tomate",NULL,NULL,"milanesa.webp",NULL
+"89","Papas fritas","Porcion de papas fritas","700",NULL,NULL,NULL,NULL,"papas.webp",NULL
+"90","Promos","3 muzzarelas","5000",NULL,NULL,NULL,NULL,NULL,NULL
+"91","Promos","1 Muzzarela, 1 Faina entera, 1 Fugazza con queso","5000",NULL,NULL,NULL,NULL,NULL,NULL
+"92","Promos","2 Muzzarellas y 1 faina entera","4600",NULL,NULL,NULL,NULL,NULL,NULL
+"93","Promos","2 Muzzarellas y 1 Fugazza con queso","5500",NULL,NULL,NULL,NULL,NULL,NULL
+"94","Promos","1 Muzzarella y 6 empanadas (horno)","3400",NULL,NULL,NULL,NULL,NULL,NULL
