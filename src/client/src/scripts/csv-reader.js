@@ -8,7 +8,10 @@ export default async(csvPath, id="id", separator=",", newLine="\r\n") => {
     .then(response => response.text())
     .then(data => {
 
+        console.log("data:", data)
+
         let content = data.split(newLine);
+        console.log("content splitted:", content)
 
         const headers = ((content).shift()).split(`"${separator}"`).map(item => item.replace(/"/g, ''));
         const rows = [];
@@ -31,6 +34,8 @@ export default async(csvPath, id="id", separator=",", newLine="\r\n") => {
                 rows.push(arrayLine);
             }
         }
+
+        console.log(headers, rows)
         
         return [headers, rows];
     })
