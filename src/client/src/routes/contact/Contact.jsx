@@ -48,7 +48,7 @@ export default () => {
                 <article className={styles.article} style={{backgroundColor:"#dcd9d9ff"}}>
                     <p className={styles.title}><span>Correo electrónico</span></p>
                     <p>O contactarnos por email</p>
-                    <a className={styles.email} aria-label="email" href={`mailto:${data.email}?subject=CenitEspecias"`}>{data.email}</a>
+                    <a className={styles.email} aria-label="email" href={`mailto:${data.email}?subject=${data.title}"`}>{data.email}</a>
 
                 </article>
 

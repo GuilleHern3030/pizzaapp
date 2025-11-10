@@ -15,8 +15,8 @@ export const getArticles = async(csvInCatch=true) => {
         return data;
     } catch(e) {
         if (csvInCatch) {
-            console.warn("Loaded from CSV")
             const data = await csvReader(`${basename}${csv}`)
+            console.warn("Loaded from CSV", data)
             return data;
         } else return null;
     }
