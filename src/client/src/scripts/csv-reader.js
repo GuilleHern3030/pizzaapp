@@ -2,7 +2,7 @@
  * Establece la conexión con un archivo CSV
  * @returns {Promise} Devuelve una promesa con un objeto JSON con la información del CSV
  */
-export default async(csvPath, id="id", separator=",", newLine="\r\n") => {
+export default async(csvPath, id="id", separator=",") => {
     
     return await fetch(csvPath)
     .then(response => response.text())
@@ -10,8 +10,8 @@ export default async(csvPath, id="id", separator=",", newLine="\r\n") => {
 
         console.log("data:", data)
 
-        let content = data.split(newLine);
-        console.log("content splitted:", content)
+        let content = data.split(/\r?\n/);
+        console.log(content)
 
         const headers = ((content).shift()).split(`"${separator}"`).map(item => item.replace(/"/g, ''));
         const rows = [];
